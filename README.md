@@ -1,2 +1,2 @@
 # Simple-Number-Guessing-Game
-A beginner's level project (number guessing game) built with python 3 language
+**The Number Guessing Game** is a beginner's level project built with python 3 language.
