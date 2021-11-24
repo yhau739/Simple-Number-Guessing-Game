@@ -37,7 +37,7 @@ guess_int = None
 
 while guess_int != secret:
     #prompt user for input as a "guess"
-    guess = input("\nGuess The Number!")
+    guess = input("\nGuess The Number : ")
 
     #convert the initial data type(str) into (int)
     guess_int = int(guess)
