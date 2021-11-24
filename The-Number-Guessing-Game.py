@@ -9,7 +9,6 @@ x = input("\nRules:\nPlayers Guess the \"Hidden\" \"Random\" Number,\nthey would
 
 z=input("Are u Ready???\nType \"Yes\" If You\'re Ready & \"NO\" If You\'re Not Interested\n")
 
-
 import sys
 while z != "yes" or z != "no":
     if z.lower() == "yes":
@@ -22,8 +21,6 @@ while z != "yes" or z != "no":
         sys.exit()
     else:
         z = input("Please Answer my question!")
-
-
 
 import random
 from time import sleep
@@ -59,9 +56,6 @@ while guess_int != secret:
             print("\nYou're getting closer to the right number!")
         else:
             print("\nTry to guess again \n(Hint: the number should be larger)")
-    
-
-
     count += 1
 
 sleep(100)
